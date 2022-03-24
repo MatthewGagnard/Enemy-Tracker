@@ -1,0 +1,54 @@
+hr{
+	border-top: 1px dashed white;
+}
+
+.MInput{
+	display: flex;
+	justify-content: center;
+}
+
+.ECreate{
+	float:left;
+}
+
+#sz{
+	width: 50px;
+}
+
+ul{
+ margin:0;
+  padding:0;
+
+}
+ul li{
+	display: flex;
+	justify-content: space-between;
+	  margin-right: 10;
+  margin-left: 10;
+	display: flex;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.close{
+	cursor:pointer;
+}
+
+#toolTips{
+	display: flex;
+	text-align: center;
+	display: none;
+}
+
+.smm{
+	display: none;
+}
+
